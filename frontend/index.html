@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Hostel Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <nav><a href="recommend.html">Get ranked recommendations</a></nav>
+  <h1>Smart Hostel Finder</h1>
+  <p>Find a hostel that fits your budget, your campus and the way you live.</p>
+</header>
+
+<main class="layout">
+  <form id="filters" class="filters" aria-label="Search filters" novalidate>
+    <label>City
+      <select name="city">
+        <option value="">All cities</option>
+        <option>Berhampur</option><option>Bengaluru</option><option>Bhubaneswar</option><option>Chennai</option>
+        <option>Cuttack</option><option>Delhi</option><option>Hyderabad</option><option>Jaipur</option>
+        <option>Kolkata</option><option>Kota</option><option>Pune</option>
+      </select>
+    </label>
+    <label>Hostel for
+      <select name="gender"><option value="">Anyone</option><option>Boys</option><option>Girls</option><option>Co-ed</option></select>
+    </label>
+    <label>Sharing
+      <select name="sharing"><option value="">Any</option><option value="1">1 sharing (single)</option><option value="2">2 sharing</option><option value="3">3 sharing</option><option value="4">4 sharing</option><option value="5">5 sharing</option></select>
+    </label>
+    <label>Room type
+      <select name="ac"><option value="">AC or Non-AC</option><option value="yes">AC</option><option value="no">Non-AC</option></select>
+    </label>
+    <label>Food
+      <select name="food"><option value="">Any</option><option>Veg</option><option>Non-Veg</option><option>Both</option></select>
+    </label>
+    <label>Maximum rent per month (₹)
+      <input type="number" name="max_budget" min="0" step="100" placeholder="e.g. 6000">
+    </label>
+    <button type="submit">Search hostels</button>
+    <button type="reset" class="plain">Clear filters</button>
+  </form>
+
+  <section aria-live="polite">
+    <p id="status" class="status"></p>
+    <div id="results" class="results"></div>
+  </section>
+</main>
+
+<div id="compareBar" class="cmpbar" hidden>
+  <span id="pickCount"></span>
+  <button type="button" id="goCompare" disabled>Compare hostels</button>
+  <button type="button" id="clearPicks" class="plain">Clear</button>
+</div>
+<dialog id="detail"><div id="detailBody"></div><button class="plain close" id="closeDetail">Close</button></dialog>
+<script src="script.js"></script>
+</body>
+</html>

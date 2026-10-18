@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin · Smart Hostel Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <nav><a href="index.html">Back to search</a></nav>
+  <h1>Manage hostels</h1>
+  <p>Add, edit or remove hostels. Every change needs the admin key.</p>
+  <label class="keybox">Admin key <input type="password" id="adminKey" placeholder="Enter the admin key" autocomplete="off"></label>
+  <p id="status" class="status" aria-live="polite"></p>
+</header>
+
+<main class="admin-grid">
+  <section>
+    <h2>All hostels</h2>
+    <label>City <select id="cityFilter"><option value="">All cities</option></select></label>
+    <div class="cmp-scroll"><table class="cmp" id="list"></table></div>
+  </section>
+
+  <form id="hostelForm" class="filters editor" novalidate>
+    <h2 id="formTitle">New hostel</h2>
+    <label>Name * <input name="name" maxlength="100"></label>
+    <label>City * <input name="city" maxlength="50"></label>
+    <label>Area * <input name="area" maxlength="80"></label>
+    <label>Nearest institution <input name="nearest_institution" maxlength="120"></label>
+    <label>Hostel for * <select name="gender_type"><option>Boys</option><option>Girls</option><option>Co-ed</option></select></label>
+    <label>Food * <select name="food_type"><option>Veg</option><option>Non-Veg</option><option>Both</option></select></label>
+    <label>Price tier * <select name="price_tier"><option>budget</option><option selected>standard</option><option>premium</option></select></label>
+    <label>Rating (0 to 5) <input type="number" name="rating" min="0" max="5" step="0.1"></label>
+    <label>Distance to campus (km) * <input type="number" name="distance_to_campus_km" min="0" step="0.1"></label>
+    <label>Mess price per month (₹, 0 if none) <input type="number" name="mess_price" min="0" step="50"></label>
+    <label>Laundry price per month (₹, 0 if none) <input type="number" name="laundry_price" min="0" step="50"></label>
+    <fieldset><legend>Room options *</legend><div id="rooms"></div><button type="button" id="addRoom" class="plain">Add a room option</button></fieldset>
+    <fieldset><legend>Amenities</legend><div id="amenityBox" class="checks"></div></fieldset>
+    <button type="submit" id="saveBtn">Create hostel</button>
+    <button type="button" id="newBtn" class="plain">Start a new hostel</button>
+  </form>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>

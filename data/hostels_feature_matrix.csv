@@ -1,0 +1,89 @@
+hostel_id,name,city,area,nearest_institution,gender_type,food_type,price_tier,rating,review_count,distance_to_campus_km,latitude,longitude,contact_phone,established_year,wifi,ac,mess_meals,laundry,cctv,power_backup,study_room,hot_water,attached_bathroom,housekeeping,biometric_entry,ro_drinking_water,mess_price,laundry_price,min_rent,max_rent,avg_rent,has_1_sharing,has_2_sharing,has_3_sharing,has_4_sharing,has_5_sharing,has_non_ac_rooms,has_ac_rooms,has_both_ac_and_non_ac,amenity_count
+1,Urban Roost Boys Hostel,Bhubaneswar,Patia,KIIT University,Boys,Both,budget,3.2,49,6.7,20.24787,85.88851,9300868759,2017,1,0,1,0,1,1,1,0,0,1,0,0,1900,0,2600,5400,3800,1,1,1,1,0,1,0,0,6
+2,Harmony Inn,Bhubaneswar,Patia,KIIT University,Co-ed,Veg,standard,4.1,121,1.4,20.30088,85.78877,9429623708,2015,1,0,1,0,1,1,0,1,1,1,0,1,2100,0,3000,8500,4933,1,0,0,1,1,1,0,0,8
+3,Royal Stay Boys Hostel,Bhubaneswar,Khandagiri,IIT Bhubaneswar,Boys,Both,budget,3.1,16,4.5,20.2852,85.76339,9395980765,2013,1,0,1,0,1,0,0,1,0,0,0,1,1900,0,2300,5800,3550,1,0,1,1,1,1,0,0,5
+4,Sunrise Girls Hostel,Bhubaneswar,Jaydev Vihar,Xavier University,Girls,Both,budget,3.5,60,1.8,20.22883,85.88457,9883089040,2022,0,0,1,1,1,0,0,1,0,0,0,1,2100,400,2400,4000,3075,0,1,1,1,1,1,0,0,5
+5,Cozy Corner Girls Hostel,Bhubaneswar,Chandrasekharpur,Utkal University,Girls,Non-Veg,budget,3.0,114,1.8,20.23434,85.76394,9035245785,2012,1,0,0,0,1,0,0,0,0,1,0,1,0,0,2400,5400,3660,1,1,1,1,1,1,0,0,4
+6,Golden Gate Boys Hostel,Bhubaneswar,Khandagiri,IIT Bhubaneswar,Boys,Veg,premium,4.3,219,2.3,20.28814,85.87509,9509899814,2011,1,1,1,1,1,1,0,1,1,1,1,1,2900,600,3900,14700,8050,1,1,0,1,1,1,1,1,11
+7,Heritage Boys Hostel,Bhubaneswar,Khandagiri,IIT Bhubaneswar,Boys,Veg,premium,4.2,152,0.6,20.36061,85.76572,9156218256,2018,1,1,1,0,1,1,1,1,1,1,0,1,2900,0,4100,14900,7830,1,1,1,1,1,1,1,1,10
+8,Maple Boys Hostel,Bhubaneswar,Saheed Nagar,SOA University,Boys,Veg,standard,3.8,128,2.1,20.28745,85.83055,9398565918,2013,1,0,1,0,1,1,1,1,0,1,0,1,2200,0,3400,7700,5075,1,1,1,1,0,1,0,0,8
+9,Evergreen Girls Hostel,Kolkata,Salt Lake,Techno India University,Girls,Veg,premium,4.6,124,0.2,22.63491,88.39064,9103540399,2006,1,1,1,1,1,1,1,1,1,1,0,1,3300,500,5600,12300,8250,0,1,1,1,0,1,1,1,11
+10,Lotus Boys Hostel,Kolkata,College Street,Presidency University,Boys,Both,budget,3.4,11,3.5,22.53995,88.40413,9188284372,2005,0,0,1,1,0,0,0,1,0,1,0,0,2600,350,3200,7000,4650,1,1,1,1,0,1,0,0,4
+11,Neo Boys Hostel,Kolkata,Jadavpur,Jadavpur University,Boys,Veg,standard,3.5,65,1.3,22.53826,88.39313,9095776306,2015,1,0,0,1,0,1,0,1,1,1,0,1,0,600,3500,9300,5375,1,0,1,1,1,1,0,0,7
+12,Orchard Boys Hostel,Kolkata,College Street,Presidency University,Boys,Veg,standard,3.2,75,4.2,22.5677,88.3558,9249710563,2012,1,0,1,1,1,0,0,1,0,1,1,1,2400,550,3500,8400,5275,1,0,1,1,1,1,0,0,8
+13,Green Valley Boys Hostel,Kolkata,College Street,Presidency University,Boys,Veg,budget,3.4,100,2.9,22.50963,88.32879,9848695986,2021,1,0,1,0,0,1,1,0,1,0,0,1,2500,0,2800,6900,4460,1,1,1,1,1,1,0,0,6
+14,Aspire Girls Hostel,Kolkata,Rajarhat,IIM Calcutta,Girls,Both,premium,4.3,153,1.7,22.53255,88.35198,9340837908,2023,1,1,1,1,1,1,1,1,1,1,1,1,3100,600,4500,15100,9850,1,1,0,1,1,1,1,1,12
+15,Neo Stay,Kolkata,Rajarhat,IIM Calcutta,Co-ed,Veg,standard,3.0,25,6.7,22.58546,88.38672,9048123438,2013,1,0,1,0,1,1,1,1,0,0,0,1,2900,0,3500,5700,4475,0,1,1,1,1,1,0,0,7
+16,Aspire Boys Hostel,Kolkata,Rajarhat,IIM Calcutta,Boys,Non-Veg,budget,3.0,3,3.1,22.52609,88.37891,9718910369,2017,0,0,1,0,0,1,1,1,0,0,0,1,2400,0,3700,6200,4833,1,1,1,0,0,1,0,0,5
+17,Campus Nest Girls Hostel,Bengaluru,Electronic City,PES University,Girls,Both,budget,3.8,40,1.6,12.92626,77.59764,9669748532,2007,1,0,0,0,1,0,1,0,1,0,0,1,0,0,3700,10100,5950,1,0,1,1,1,1,0,0,5
+18,Harmony Boys Hostel,Bengaluru,Yelahanka,Reva University,Boys,Both,premium,3.9,144,2.4,12.99829,77.61503,9470263545,2018,1,1,1,1,1,1,1,1,1,1,1,1,4300,800,7000,21300,14183,1,1,0,0,1,1,1,1,12
+19,Student Haven Girls Hostel,Bengaluru,Yelahanka,Reva University,Girls,Veg,standard,3.8,143,1.5,12.99924,77.54228,9848544109,2020,1,0,1,1,0,1,1,1,1,1,1,1,3400,550,5100,13700,7980,1,1,1,1,1,1,0,0,10
+20,Harmony Girls Hostel,Bengaluru,Koramangala,Christ University,Girls,Both,premium,4.6,138,1.9,12.98854,77.60995,9792261100,2019,1,1,1,1,1,1,1,1,1,1,1,1,4600,1000,7200,21400,12550,1,1,1,1,1,1,1,1,12
+21,Unity Boys Hostel,Bengaluru,Jayanagar,Jain University,Boys,Both,budget,3.0,93,1.3,12.96722,77.56717,9425458760,2012,1,0,1,0,1,1,1,1,0,1,0,0,3400,0,3700,9800,5980,1,1,1,1,1,1,0,0,7
+22,Neo Girls Hostel,Bengaluru,Koramangala,Christ University,Girls,Both,premium,4.2,221,1.4,13.0155,77.60161,9433945965,2018,1,1,0,1,1,1,1,1,1,1,1,1,0,1050,6700,9300,8100,0,0,1,1,1,1,1,1,11
+23,Silver Oak Boys Hostel,Bengaluru,Koramangala,Christ University,Boys,Veg,budget,3.0,107,4.2,12.92316,77.65517,9274444115,2009,1,0,1,0,1,0,0,0,0,1,0,1,3000,0,3900,9200,6125,1,1,0,1,1,1,0,0,5
+24,Student Haven Lodge,Bengaluru,Koramangala,Christ University,Co-ed,Both,budget,3.4,110,3.0,12.98165,77.5573,9707783689,2020,1,0,1,0,1,1,0,1,0,0,0,1,3600,0,4300,9000,6275,1,1,1,1,0,1,0,0,6
+25,Cedar Inn,Pune,Kothrud,MIT-WPU,Co-ed,Veg,budget,2.8,107,2.9,18.57464,73.85501,9562622097,2008,0,0,0,1,0,1,0,1,0,0,0,1,0,450,3100,8300,5180,1,1,1,1,1,1,0,0,4
+26,Bright Future Boys Hostel,Pune,Shivajinagar,Fergusson College,Boys,Veg,budget,2.7,73,3.2,18.57625,73.85184,9250992964,2014,1,0,1,0,1,0,0,0,0,0,0,1,2600,0,3200,5400,4300,0,1,1,1,1,1,0,0,4
+27,Maple PG House,Pune,Viman Nagar,Symbiosis International,Co-ed,Veg,premium,4.0,147,2.4,18.47702,73.82179,9776106070,2016,1,1,1,1,1,1,1,0,0,1,0,1,3600,900,5400,16800,10260,1,0,1,1,1,1,1,1,9
+28,Blue Orchid Boys Hostel,Pune,Viman Nagar,Symbiosis International,Boys,Veg,budget,3.1,34,2.7,18.54509,73.88112,9385032137,2013,0,0,1,0,0,0,0,1,0,0,0,1,3000,0,3400,5600,4300,0,1,1,1,1,1,0,0,3
+29,Golden Gate PG House,Pune,Shivajinagar,Fergusson College,Co-ed,Veg,premium,4.5,165,4.9,18.54427,73.89074,9947140449,2006,1,0,1,0,1,1,1,1,1,1,1,1,3800,0,6100,10500,7800,0,1,1,1,1,1,0,0,10
+30,Cedar Girls Hostel,Pune,Hinjewadi,Pune Institute of Computer Technology,Girls,Veg,budget,2.6,150,5.1,18.56058,73.81543,9855827752,2009,0,0,0,0,0,0,0,1,0,0,0,1,0,0,3800,7500,5550,1,1,1,1,0,1,0,0,2
+31,Urban Roost Residency,Pune,Viman Nagar,Symbiosis International,Co-ed,Veg,standard,3.8,128,5.5,18.51453,73.92166,9044649006,2007,1,1,1,1,1,1,1,1,0,1,0,0,2900,450,3900,12000,7525,1,1,1,1,1,1,1,1,9
+32,Heritage Girls Hostel,Pune,Viman Nagar,Symbiosis International,Girls,Both,budget,3.1,67,2.4,18.51015,73.87982,9319080078,2022,1,0,1,1,0,0,0,1,0,1,0,1,2700,350,4200,7700,5900,1,1,1,0,0,1,0,0,6
+33,Golden Gate Girls Hostel,Delhi,Mukherjee Nagar,Delhi University North Campus,Girls,Veg,standard,4.2,43,1.0,28.66222,77.27544,9866098217,2014,1,0,1,0,1,1,1,1,0,1,1,1,4000,0,4900,12800,7820,1,1,1,1,1,1,0,0,9
+34,Scholars Boys Hostel,Delhi,Hauz Khas,IIT Delhi,Boys,Veg,standard,3.9,75,1.5,28.63657,77.20699,9427142646,2006,1,1,1,1,1,1,0,1,1,1,1,1,4100,600,5300,11400,7717,0,1,1,1,1,1,1,1,11
+35,Royal Stay Girls Hostel,Delhi,Laxmi Nagar,Delhi University South Campus,Girls,Veg,standard,3.8,161,3.1,28.62451,77.21928,9741038689,2007,1,1,1,1,1,1,0,1,0,0,1,1,3400,550,4600,13800,8825,1,1,1,1,1,1,1,1,9
+36,Nirvana Boys Hostel,Delhi,Kalu Sarai,JNU,Boys,Both,premium,4.0,114,0.7,28.66739,77.22902,9939344675,2016,1,0,1,1,1,1,1,1,0,1,1,1,5100,1050,7200,16200,11275,1,1,1,0,1,1,0,0,10
+37,Lotus Girls Hostel,Delhi,Mukherjee Nagar,Delhi University North Campus,Girls,Both,budget,3.1,119,4.1,28.59198,77.239,9512445132,2018,1,0,0,0,1,0,0,1,0,0,0,1,0,0,3800,6700,5367,0,1,1,0,1,1,0,0,4
+38,Campus Nest Boys Hostel,Delhi,Hauz Khas,IIT Delhi,Boys,Both,standard,4.0,122,4.9,28.63399,77.18499,9179990650,2014,1,1,0,0,1,1,0,1,0,1,1,1,0,0,5500,16200,9267,1,0,1,1,0,1,1,1,8
+39,Cedar Boys Hostel,Delhi,Laxmi Nagar,Delhi University South Campus,Boys,Both,premium,4.3,122,3.7,28.62938,77.24433,9722979165,2019,1,1,1,1,1,1,1,1,1,1,0,1,4400,600,7600,21900,15000,1,1,1,1,0,1,1,1,11
+40,Blue Orchid Lodge,Delhi,Kalu Sarai,JNU,Co-ed,Both,premium,3.7,172,0.2,28.57499,77.20216,9300529309,2015,1,1,1,1,1,1,0,1,1,1,0,1,4700,950,6900,21600,11988,1,0,1,1,1,1,1,1,10
+41,Metro Boys Hostel,Hyderabad,Kukatpally,JNTU Hyderabad,Boys,Both,budget,2.9,11,4.8,17.39551,78.5173,9203516539,2022,0,1,1,1,1,0,1,1,0,0,0,1,2700,450,3000,7100,4571,0,1,1,1,1,1,1,1,7
+42,Urban Roost Girls Hostel,Hyderabad,Gachibowli,IIIT Hyderabad,Girls,Veg,standard,4.4,121,2.3,17.38715,78.55518,9527137831,2016,1,0,1,0,1,0,1,1,0,1,1,1,3100,0,3500,9200,6225,1,1,1,0,1,1,0,0,8
+43,Zenith Girls Hostel,Hyderabad,Madhapur,Hyderabad Central University,Girls,Both,premium,4.7,86,3.1,17.44263,78.50278,9467064571,2005,1,1,1,1,1,1,1,1,1,1,1,1,3500,450,5900,16400,10838,1,1,1,1,0,1,1,1,12
+44,Green Valley Girls Hostel,Hyderabad,Kukatpally,JNTU Hyderabad,Girls,Veg,premium,4.4,138,3.0,17.34105,78.48918,9917726692,2009,1,1,1,0,1,1,1,1,1,1,1,1,3700,0,5000,17500,10229,1,1,0,1,1,1,1,1,11
+45,Scholars Hostel,Hyderabad,Gachibowli,IIIT Hyderabad,Co-ed,Both,standard,3.5,66,3.1,17.39512,78.48214,9918037444,2023,0,0,1,0,1,1,0,1,1,1,1,0,2700,0,3700,10800,6750,1,1,1,0,1,1,0,0,7
+46,Pearl Boys Hostel,Hyderabad,Gachibowli,IIIT Hyderabad,Boys,Non-Veg,budget,2.9,25,3.9,17.32808,78.50644,9551693908,2007,0,0,1,0,1,0,0,1,1,1,0,1,2500,0,3100,8400,5325,1,1,0,1,1,1,0,0,6
+47,Silver Oak Stay,Hyderabad,Gachibowli,IIIT Hyderabad,Co-ed,Veg,premium,4.6,183,0.8,17.3597,78.55502,9337512141,2006,1,1,1,1,1,1,1,1,1,1,1,1,3300,700,5300,13100,8267,0,1,1,1,1,1,1,1,12
+48,Maple Lodge,Hyderabad,Ameerpet,Osmania University,Co-ed,Both,premium,4.1,134,4.7,17.35439,78.50035,9862011234,2006,1,1,0,1,1,1,0,1,1,1,1,1,0,450,5400,16700,9286,1,0,1,1,1,1,1,1,10
+49,Skyline Girls Hostel,Chennai,Adyar,Loyola College,Girls,Veg,budget,3.2,113,3.4,13.12526,80.27341,9181933685,2021,1,0,1,0,1,1,0,0,0,0,0,1,2500,0,2800,6900,4933,1,1,0,0,1,1,0,0,5
+50,Evergreen Boys Hostel,Chennai,Adyar,Loyola College,Boys,Non-Veg,standard,3.6,104,3.4,13.05662,80.2219,9647987012,2015,0,0,1,1,1,1,0,0,1,1,1,0,2600,650,3700,9000,5860,1,1,1,1,1,1,0,0,7
+51,Skyline Boys Hostel,Chennai,Adyar,Loyola College,Boys,Veg,standard,4.1,157,2.2,13.05098,80.21776,9639898227,2016,1,0,1,0,1,1,1,0,1,1,1,1,2700,0,3700,10300,6350,1,1,0,1,1,1,0,0,9
+52,Horizon Girls Hostel,Chennai,Adyar,Loyola College,Girls,Both,standard,4.1,97,1.6,13.1041,80.32399,9467220762,2006,1,1,1,1,1,1,1,1,0,1,1,0,2900,550,4000,11200,6640,1,0,1,1,0,1,1,1,10
+53,Vista Residency,Chennai,Tharamani,IIT Madras,Co-ed,Veg,standard,3.2,106,3.9,13.03545,80.26495,9217757188,2018,1,0,0,0,1,1,0,1,0,1,0,0,0,0,3400,8200,5650,1,1,1,0,1,1,0,0,5
+54,Metro Girls Hostel,Chennai,Kelambakkam,SSN College,Girls,Both,budget,3.6,112,4.5,13.05401,80.28675,9211764545,2011,0,0,0,1,1,1,0,1,0,0,0,1,0,550,2900,6500,4420,1,1,1,1,1,1,0,0,5
+55,Orchard Girls Hostel,Chennai,Tharamani,IIT Madras,Girls,Veg,standard,4.0,59,0.2,13.07665,80.20878,9487387503,2007,1,1,1,1,1,1,1,1,1,1,0,1,3000,350,4400,12100,7488,1,1,1,1,0,1,1,1,11
+56,Vista Boys Hostel,Chennai,Guindy,Anna University,Boys,Veg,premium,4.3,67,2.8,13.01489,80.22955,9105707422,2006,1,1,1,1,1,1,1,1,1,1,0,1,3300,750,4900,17600,10343,1,1,0,1,1,1,1,1,11
+57,Cozy Corner Boys Hostel,Kota,Rajeev Gandhi Nagar,Coaching Hub,Boys,Veg,standard,3.3,117,2.9,25.24286,75.90761,9959512269,2016,1,0,0,0,0,0,0,1,1,1,1,1,0,0,2500,5200,3725,0,1,1,1,1,1,0,0,6
+58,Cozy Corner Residency,Kota,Rajeev Gandhi Nagar,Coaching Hub,Co-ed,Veg,standard,3.8,41,1.7,25.27182,75.89219,9732324633,2020,1,1,1,0,1,1,0,1,0,1,1,1,2100,0,2800,8500,4600,1,0,1,1,1,1,1,1,9
+59,Neo Hostel,Kota,Talwandi,Coaching Hub,Co-ed,Both,budget,3.2,49,1.5,25.25882,75.93011,9641717495,2006,0,0,1,0,1,0,0,1,0,1,0,0,1900,0,2100,5000,3500,1,1,1,0,1,1,0,0,4
+60,Neo Residency,Kota,Kunhadi,Coaching Hub,Co-ed,Veg,budget,3.7,65,2.7,25.2188,75.83494,9564919526,2013,1,0,1,1,1,0,0,0,0,1,0,1,1700,300,2000,5500,3575,1,1,1,0,1,1,0,0,6
+61,Elite Boys Hostel,Kota,Talwandi,Coaching Hub,Boys,Both,budget,3.0,49,4.2,25.1734,75.91634,9840098509,2015,0,0,0,0,1,1,1,1,0,0,0,1,0,0,2300,3900,2967,0,1,1,0,1,1,0,0,5
+62,Elite Girls Hostel,Kota,Rajeev Gandhi Nagar,Coaching Hub,Girls,Veg,premium,4.0,190,2.1,25.27748,75.85034,9702943946,2017,1,1,1,1,1,0,1,1,0,1,1,1,2600,500,4400,11600,7062,1,1,1,1,0,1,1,1,10
+63,Student Haven Boys Hostel,Kota,Rajeev Gandhi Nagar,Coaching Hub,Boys,Veg,premium,4.3,87,2.4,25.24528,75.87314,9925612211,2013,1,0,1,1,1,1,1,1,1,1,1,1,2600,450,3700,7700,5150,0,1,1,1,1,1,0,0,11
+64,Cozy Corner Inn,Kota,Talwandi,Coaching Hub,Co-ed,Both,budget,2.8,43,5.2,25.22825,75.89214,9413376973,2013,1,0,1,0,1,0,0,0,0,0,0,1,1700,0,2000,5100,3367,1,0,1,0,1,1,0,0,4
+65,Harmony Hall,Jaipur,Mansarovar,Manipal University Jaipur,Co-ed,Both,standard,3.9,69,2.8,26.90527,75.80101,9559840978,2024,1,0,1,0,1,0,1,0,0,1,1,1,2500,0,3200,7700,4820,1,1,1,1,1,1,0,0,7
+66,Zenith Boys Hostel,Jaipur,Vaishali Nagar,University of Rajasthan,Boys,Veg,premium,4.3,123,2.9,26.96129,75.80802,9619211592,2017,1,0,1,0,1,1,1,1,1,1,1,1,3000,0,4600,12100,7267,1,0,0,1,1,1,0,0,10
+67,Unity Girls Hostel,Jaipur,Vaishali Nagar,University of Rajasthan,Girls,Veg,budget,3.2,36,3.2,26.86655,75.8116,9895632131,2017,1,0,0,0,1,1,1,0,0,0,0,1,0,0,2300,5600,3780,1,1,1,1,1,1,0,0,5
+68,Blue Orchid Girls Hostel,Jaipur,Mansarovar,Manipal University Jaipur,Girls,Non-Veg,standard,3.2,80,4.2,26.89968,75.78614,9741572022,2019,1,0,0,1,1,0,0,0,0,1,1,1,0,300,3100,7500,4820,1,1,1,1,1,1,0,0,6
+69,Harmony PG House,Jaipur,Vaishali Nagar,University of Rajasthan,Co-ed,Veg,premium,4.8,36,0.5,26.95099,75.75047,9853761122,2006,1,1,1,1,1,0,1,1,1,1,0,1,2900,650,4700,7800,5980,0,0,1,1,1,1,1,1,10
+70,Horizon Boys Hostel,Jaipur,Vaishali Nagar,University of Rajasthan,Boys,Veg,standard,3.9,42,4.7,26.8988,75.82227,9684458809,2016,1,0,1,1,1,0,1,1,0,1,0,1,2400,550,3300,7000,4900,1,0,1,1,0,1,0,0,8
+71,Sunrise Boys Hostel,Jaipur,Malviya Nagar,MNIT Jaipur,Boys,Veg,premium,4.2,116,3.0,26.94032,75.75008,9670412606,2008,1,1,1,0,1,1,1,1,1,1,1,1,2700,0,5100,13500,8760,1,0,1,1,0,1,1,1,11
+72,Silver Oak Girls Hostel,Jaipur,Mansarovar,Manipal University Jaipur,Girls,Both,standard,3.5,81,3.6,26.97725,75.76133,9120566768,2014,1,0,1,0,1,1,1,1,0,1,1,1,2500,0,3500,7600,5533,1,1,0,1,0,1,0,0,9
+73,Bright Future Girls Hostel,Cuttack,Buxi Bazaar,Ravenshaw University,Girls,Both,standard,2.8,100,3.1,20.40195,85.84971,9007565470,2022,0,0,1,1,0,0,0,1,0,1,0,1,2200,450,2800,4800,3633,0,1,1,1,0,1,0,0,5
+74,Horizon Boys Hostel Badambadi,Cuttack,Badambadi,NIT Rourkela Extension Centre,Boys,Both,standard,3.9,101,2.5,20.48954,85.86207,9770441483,2017,1,0,1,1,1,1,0,0,0,1,0,1,2100,400,3000,6000,4375,1,1,1,1,0,1,0,0,7
+75,Blue Orchid Hall,Cuttack,Buxi Bazaar,Ravenshaw University,Co-ed,Non-Veg,premium,4.0,112,1.7,20.45329,85.8205,9394595620,2017,1,1,1,1,1,1,1,1,0,1,0,1,2400,350,3900,8400,5833,0,1,1,1,1,1,1,1,10
+76,Pearl Girls Hostel,Cuttack,Badambadi,NIT Rourkela Extension Centre,Girls,Veg,standard,3.6,121,1.0,20.4459,85.83912,9042851606,2022,1,0,1,1,0,1,1,1,0,0,1,1,2000,450,3200,6600,4575,1,1,1,1,0,1,0,0,8
+77,Vista Girls Hostel,Cuttack,Link Road,SCB Medical College,Girls,Veg,premium,4.7,58,4.5,20.4159,85.84266,9100628153,2007,1,0,1,0,1,1,0,1,1,1,1,1,2400,0,4500,9400,6675,1,1,1,1,0,1,0,0,9
+78,Horizon Boys Hostel Buxi Bazaar,Cuttack,Buxi Bazaar,Ravenshaw University,Boys,Veg,standard,4.0,97,4.0,20.4575,85.82697,9102837070,2009,1,1,1,0,1,1,1,1,0,1,1,1,2200,0,2400,7600,4775,1,1,1,0,1,1,1,1,10
+79,Skyline Boys Hostel Badambadi,Cuttack,Badambadi,NIT Rourkela Extension Centre,Boys,Veg,standard,3.8,110,3.7,20.50405,85.93193,9262898690,2022,1,1,1,1,1,1,0,1,1,0,0,1,1800,450,2800,4900,3700,0,0,1,1,1,1,1,1,9
+80,Skyline Boys Hostel Buxi Bazaar,Cuttack,Buxi Bazaar,Ravenshaw University,Boys,Veg,budget,3.5,39,6.4,20.52644,85.93566,9856957794,2019,0,0,1,0,1,0,0,1,0,1,0,1,1800,0,2100,5500,3320,1,1,1,1,1,1,0,0,5
+81,Royal Stay Boys Hostel Bhanja Bihar,Berhampur,Bhanja Bihar,Berhampur University,Boys,Veg,standard,4.1,100,4.3,19.34093,84.77148,9970315143,2022,1,0,0,1,1,1,1,1,0,1,0,1,0,350,2800,6800,4525,1,1,1,0,1,1,0,0,8
+82,Scholars Girls Hostel,Berhampur,Lanjipalli,Khallikote Autonomous College,Girls,Non-Veg,premium,4.4,119,4.1,19.34055,84.8313,9124306091,2006,1,1,1,1,1,1,1,1,1,1,1,1,2600,400,4000,8800,6440,0,1,1,1,0,1,1,1,12
+83,Neo Boys Hostel Gosaninuagaon,Berhampur,Gosaninuagaon,MKCG Medical College,Boys,Both,budget,2.6,85,4.2,19.30008,84.85558,9556701488,2012,0,0,1,0,1,0,0,0,0,0,0,1,1700,0,2300,5100,3400,1,1,1,0,1,1,0,0,3
+84,Lotus Boys Hostel Sitalapalli,Berhampur,Sitalapalli,Parala Maharaja Engineering College,Boys,Non-Veg,premium,4.5,160,0.2,19.31243,84.73335,9264953616,2023,1,1,1,1,1,1,1,1,1,1,1,1,2600,550,3900,11900,7440,1,0,1,0,1,1,1,1,12
+85,Nirvana Girls Hostel,Berhampur,Sitalapalli,Parala Maharaja Engineering College,Girls,Both,budget,2.7,151,6.1,19.32648,84.80971,9588099059,2008,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1900,3100,2433,0,0,1,1,1,1,0,0,2
+86,Vista Boys Hostel Lanjipalli,Berhampur,Lanjipalli,Khallikote Autonomous College,Boys,Both,premium,4.6,150,0.2,19.26918,84.73295,9271312517,2024,1,1,1,1,1,1,1,1,1,1,1,1,2700,400,4000,12000,6783,1,0,1,1,1,1,1,1,12
+87,Bright Future Boys Hostel Sitalapalli,Berhampur,Sitalapalli,Parala Maharaja Engineering College,Boys,Both,premium,4.0,120,3.1,19.29409,84.86095,9807498289,2018,1,1,1,1,1,1,1,1,0,1,1,1,2300,500,3900,10300,6386,1,0,1,1,1,1,1,1,11
+88,Maple Girls Hostel,Berhampur,Sitalapalli,Parala Maharaja Engineering College,Girls,Veg,budget,3.4,83,4.7,19.32625,84.80328,9864615581,2006,1,0,0,0,0,1,0,0,0,1,0,0,0,0,2600,5200,3575,1,1,1,1,0,1,0,0,3

@@ -1,0 +1,13 @@
+user_id,city,gender,max_budget,sharing_capacity,ac_preference,must_have_amenities,max_distance_km,food_pref,w_price,w_distance,w_amenities,w_rating
+1,Bhubaneswar,Boys,6000,2,Non-AC,WiFi;Mess/Meals;Hot Water,3,Veg,0.35,0.2,0.3,0.15
+2,Bengaluru,Girls,14000,1,AC,WiFi;CCTV;Attached Bathroom,4,Any,0.2,0.15,0.35,0.3
+3,Kota,Boys,5000,3,Non-AC,Study Room;Mess/Meals;Power Backup,2,Veg,0.4,0.25,0.2,0.15
+4,Delhi,Girls,10000,2,Any,CCTV;Biometric Entry;WiFi,5,Any,0.25,0.25,0.25,0.25
+5,Pune,Co-ed,8000,3,Non-AC,WiFi;Laundry;Study Room,3,Both,0.3,0.15,0.35,0.2
+6,Hyderabad,Boys,9000,2,AC,WiFi;Power Backup,4,Non-Veg,0.3,0.2,0.3,0.2
+7,Chennai,Girls,9000,1,Any,WiFi;Hot Water;Housekeeping,3,Veg,0.25,0.25,0.25,0.25
+8,Kolkata,Boys,5000,4,Non-AC,Mess/Meals;RO Drinking Water,5,Any,0.5,0.2,0.15,0.15
+9,Jaipur,Co-ed,6500,2,Non-AC,WiFi;Study Room;CCTV,3,Veg,0.3,0.2,0.3,0.2
+10,Cuttack,Girls,5000,3,Non-AC,CCTV;Hot Water;WiFi,4,Veg,0.4,0.2,0.25,0.15
+11,Berhampur,Boys,5000,2,Non-AC,WiFi;Mess/Meals;Power Backup,3,Veg,0.35,0.2,0.3,0.15
+12,Berhampur,Girls,6500,3,Any,CCTV;WiFi;Hot Water,4,Any,0.3,0.25,0.25,0.2

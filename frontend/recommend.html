@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recommendations · Smart Hostel Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <nav><a href="index.html">Browse all hostels</a></nav>
+  <h1>Hostels ranked for you</h1>
+  <p>Tell us what you need and what matters most. We score every hostel that fits and put the best match first.</p>
+</header>
+
+<main class="layout">
+  <form id="prefs" class="filters" novalidate>
+    <label>City *
+      <select name="city">
+        <option value="">Choose a city</option>
+        <option>Berhampur</option><option>Bengaluru</option><option>Bhubaneswar</option><option>Chennai</option>
+        <option>Cuttack</option><option>Delhi</option><option>Hyderabad</option><option>Jaipur</option>
+        <option>Kolkata</option><option>Kota</option><option>Pune</option>
+      </select>
+    </label>
+    <label>Maximum rent per month (₹) *
+      <input type="number" name="max_budget" min="0" step="100" placeholder="e.g. 6000">
+    </label>
+    <label>Hostel for
+      <select name="gender"><option value="">Anyone</option><option>Boys</option><option>Girls</option><option>Co-ed</option></select>
+    </label>
+    <label>Sharing
+      <select name="sharing_capacity"><option value="">Any</option><option value="1">1 sharing (single)</option><option value="2">2 sharing</option><option value="3">3 sharing</option><option value="4">4 sharing</option><option value="5">5 sharing</option></select>
+    </label>
+    <label>Room type
+      <select name="ac_preference"><option value="Any">AC or Non-AC</option><option value="AC">AC</option><option value="Non-AC">Non-AC</option></select>
+    </label>
+    <label>Food
+      <select name="food_pref"><option value="Any">Any</option><option>Veg</option><option>Non-Veg</option></select>
+    </label>
+    <label>Preferred distance to campus (km)
+      <input type="number" name="max_distance_km" min="0" step="0.5" placeholder="e.g. 3">
+    </label>
+    <fieldset><legend>Amenities you want</legend><div id="amenityBox" class="checks">Loading…</div></fieldset>
+    <fieldset><legend>How much does each matter?</legend>
+      <label class="range">Low price <output></output><input type="range" name="w_price" min="0" max="10" value="3"></label>
+      <label class="range">Close to campus <output></output><input type="range" name="w_distance" min="0" max="10" value="2"></label>
+      <label class="range">Amenities <output></output><input type="range" name="w_amenities" min="0" max="10" value="3"></label>
+      <label class="range">Rating <output></output><input type="range" name="w_rating" min="0" max="10" value="2"></label>
+    </fieldset>
+    <button type="submit">Rank hostels for me</button>
+  </form>
+
+  <section aria-live="polite">
+    <p id="status" class="status">Fill in a city and a budget, then rank.</p>
+    <div id="results" class="results"></div>
+  </section>
+</main>
+<script src="recommend.js"></script>
+</body>
+</html>
